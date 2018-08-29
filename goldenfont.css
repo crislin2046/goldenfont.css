@@ -3,6 +3,9 @@
 :root, body, select, option, input, a, textarea, button {
   font: 12pt/135% serif;
   color: rgb(55,15,0);
+}
+
+:root, body {
   background: rgb(249,249,249);
 }
 
