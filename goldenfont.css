@@ -21,18 +21,21 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
   height: 2.61803398875em;
 }
 
-select, option {
-  height: 1.61803398875em;
+input[type="radio"], input[type="checkbox"] {
+  height: unset;
 }
 
-option, optgoup {
-  font-size: 1.1em;
+select, option {
+  height: 1.61803398875em;
 }
 
 textarea {
   box-sizing: border-box;
   height: calc(attr(rows)*1.618em);
-  font-size: 1.1em;
+}
+
+option, optgroup, textarea {
+  font-size: 1em;
 }
 
 
