@@ -79,6 +79,6 @@ blockquote, ul, ol, dd {
 }
 
 p, blockquote, ol, ul, dl, h1, h2 {
-  width: 37.5em;
+  width: 30em;
   max-width: 100%;
 }
