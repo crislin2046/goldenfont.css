@@ -1,6 +1,6 @@
 /* Perfect typographic CSS */
 
-p, a, span, input {
+p, a, span, input, button, label, legend, select, option, textarea {
   font: 1.2em/1.618em sans-serif;
 }
 
@@ -9,8 +9,7 @@ p {
   max-width: 99.999%;
 }
 
-label, legend, input, select, button, option {
-  display: inline-block;
+label, legend, input {
   height: 1em;
 }
 
@@ -22,10 +21,14 @@ select, option {
   height: 1.61803398875em;
 }
 
+option, optgoup {
+  font-size: 1.1em;
+}
+
 textarea {
   box-sizing: border-box;
   height: calc(attr(rows)*1.618em);
-  font: 1.1em/1.618em sans-serif;
+  font-size: 1.1em;
 }
 
 
