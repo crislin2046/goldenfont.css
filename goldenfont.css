@@ -41,18 +41,10 @@ th, legend {
   padding-bottom: 1em;
 }
 
-p, textarea, [contenteditable], figure, ol, li {
+p, textarea, [contenteditable], figure, ol, ul {
   margin: 0;
   margin-bottom: 0.75em;
 }
-
-/**
-
-p + p, p + figure, figure + figure, figure + p {
-  margin-top: 0.75em;
-}
-
-**/
 
 .caps, .small-caps {
   letter-spacing: 0.08em;
@@ -110,4 +102,8 @@ textarea, [contenteditable] { max-width: 30em; }
 
 ul ul, fieldset > ul {
   margin-left: -0.35em;
+}
+
+th, caption {
+  text-align: left;
 }
