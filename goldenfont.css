@@ -115,3 +115,7 @@ ul ul, fieldset > ul {
 th, caption {
   text-align: left;
 }
+
+input, button {
+  margin: 0.25em;
+}
