@@ -1,9 +1,7 @@
 /* Perfect typographic CSS */
 
-p, a, span, input {
-  font-size: 1.2em;
-  line-height: 1.618em;
-  font-family: sans-serif;
+p, a, span, input, body {
+  font: 1.2em/1.618em sans-serif;
 }
 
 p {
@@ -27,8 +25,7 @@ select, option {
 textarea {
   box-sizing: border-box;
   height: calc(attr(rows)*1.618em);
-  line-height: 1.618em;
-  font-size: 1.1em;
+  font: 1.1em/1.618em sans-serif;
 }
 
 
