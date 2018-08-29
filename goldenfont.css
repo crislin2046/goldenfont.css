@@ -1,7 +1,7 @@
 /* Perfect typographic CSS */
 
-body {
-  font-size: 12pt;
+:root, body, select, option, input, a, textarea, button {
+  font: 12pt/135% serif;
 }
 
 h1 {
@@ -12,15 +12,11 @@ h2 {
   font-size: 13pt;
 }
 
-label, legend, input, th {
+label, legend, input, button, th {
   font-size: 12.5pt;
 }
 
 h3, h4, h5, h6 { display: none; }
-
-:root {
-  font: 12pt/135% serif;
-}
 
 h1, h2 {
   font-weight: bold;
@@ -37,12 +33,25 @@ th, legend {
 }
 
 p {
-  margin: 0;
+  margin-bottom: 0.75em;
 }
 
 p + p {
   margin-top: 0.75em;
 }
+
+.caps, .small-caps {
+  letter-spacing: 0.08em;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
 
 
 
