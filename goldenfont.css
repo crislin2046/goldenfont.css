@@ -103,7 +103,7 @@ p, blockquote, ol, ul, dl, h1, h2, textarea, [contenteditable] {
 
 textarea, [contenteditable] { max-width: 30em; }
 
-input[type="range"] { 
+input[type="range"], input[type="color"] { 
   display: inline-block;
   vertical-align: middle; 
 }
@@ -116,6 +116,7 @@ th, caption {
   text-align: left;
 }
 
-input, button {
+input, button, textarea, select {
   margin: 0.25em;
+  padding: 0.25em;
 }
