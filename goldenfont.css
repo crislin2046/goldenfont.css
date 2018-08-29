@@ -8,8 +8,13 @@
   color: rgb(55,15,0);
 }
 
-body {
+:root {
   margin: 1.35em;
+}
+
+body {
+  display: table;
+  margin: 0 auto;
 }
 
 :root, body {
