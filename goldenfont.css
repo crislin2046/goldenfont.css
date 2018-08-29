@@ -1,13 +1,50 @@
 /* Perfect typographic CSS */
 
-p {
-  font: 1.2em/1.618em sans-serif;
-  width: 37.518em;
-  max-width: 99.999%;
+body {
+  font-size: 12pt;
 }
 
-select, option {
-  height: 1.61803398875em;
+h1 {
+  font-size: 14pt;
 }
+
+h2 {
+  font-size: 13pt;
+}
+
+label, legend, input, th {
+  font-size: 12.5pt;
+}
+
+h3, h4, h5, h6 { display: none; }
+
+:root {
+  font: 12pt/135% serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1, h2 {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+th, legend {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+p {
+  margin: 0;
+}
+
+p + p {
+  margin-top: 0.75em;
+}
+
+
+
 
 
