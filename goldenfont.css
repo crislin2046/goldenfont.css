@@ -14,7 +14,14 @@ p {
 label, legend, input, select, button, option {
   display: inline-block;
   height: 1em;
-  max-height: 2.61803398875em;
+}
+
+button, input[type="button"], input[type="submit"], input[type="reset"] {
+  height: 2.61803398875em;
+}
+
+select, option {
+  height: 1.61803398875em;
 }
 
 textarea {
