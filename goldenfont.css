@@ -1,10 +1,7 @@
 /* Perfect typographic CSS */
 
-:root, body, select, option, input, a, textarea, button {
+:root, body, select, option, input, a, textarea, button, pre, code, kbd, samp {
   font: 12pt/135% serif;
-}
-
-:root, body, select, option, input, textarea, button {
   color: rgb(55,15,0);
 }
 
@@ -67,8 +64,10 @@ fieldset, hr {
   border-top: thin solid;
 }
 
+ol ol {
+  list-style-type: decimal;
+}
 
-
-
-
-
+ul ul {
+  list-style-type: disc;
+}
