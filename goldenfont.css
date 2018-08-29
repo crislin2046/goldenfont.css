@@ -72,7 +72,8 @@ ol {
 ol li::before {
   counter-increment: section;
   content: counters(section, ".") ".";
-  margin-left: -0.35em;
+  margin-left: -1.35em;
+  padding-right: 0.35em;
 }
 
 ol, ul {
@@ -98,6 +99,6 @@ p, blockquote, ol, ul, dl, h1, h2, textarea, [contenteditable] {
 
 textarea, [contenteditable] { max-width: 30em };
 
-ul ul {
+ul ul, fieldset > ul {
   margin-left: -0.35em;
 }
