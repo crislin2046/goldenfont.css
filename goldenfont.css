@@ -103,7 +103,10 @@ p, blockquote, ol, ul, dl, h1, h2, textarea, [contenteditable] {
 
 textarea, [contenteditable] { max-width: 30em; }
 
-input[type="range"] { vertical-align: middle; }
+input[type="range"] { 
+  display: inline-block;
+  vertical-align: middle; 
+}
 
 ul ul, fieldset > ul {
   margin-left: -0.35em;
