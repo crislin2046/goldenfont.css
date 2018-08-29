@@ -10,7 +10,7 @@
 
 :root, body {
   margin: 1.35em;
-  background: silver;
+  background: rgb(237,237,237);
 }
 
 body.document, main[role="document"], main.app {
