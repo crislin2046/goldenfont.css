@@ -116,7 +116,8 @@ th, caption {
   text-align: left;
 }
 
-input, button, textarea, select {
+input, button, textarea, select, [contenteditable] {
   margin: 0.25em;
   padding: 0.25em;
+  box-sizing: border-box;
 }
