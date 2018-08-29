@@ -1,6 +1,6 @@
 /* Perfect typographic CSS */
 
-p, a, span, input, body {
+p, a, span, input {
   font: 1.2em/1.618em sans-serif;
 }
 
