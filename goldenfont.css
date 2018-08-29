@@ -17,6 +17,8 @@ body.document, main[role="document"], main.app {
   display: table;
   margin: 0 auto;
   padding: 1.35em;
+  border: none;
+  border-left: thin solid silver;
 }
 
 body {
