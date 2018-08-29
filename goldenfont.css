@@ -1,5 +1,9 @@
 /* Perfect typographic CSS */
 
+body {
+  font-family: Helvetica;
+}
+
 p, a, span, input, button, label, legend, select, option, textarea {
   font: 1.2em/1.618em sans-serif;
 }
