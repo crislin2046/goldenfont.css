@@ -73,7 +73,7 @@ ol li::before {
   counter-increment: section;
   content: counters(section, ".") ".";
   margin-left: -1.35em;
-  padding-right: 0.35em;
+  padding-right: 0.65em;
 }
 
 ol, ul {
