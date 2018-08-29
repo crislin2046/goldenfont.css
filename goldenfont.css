@@ -41,7 +41,7 @@ th, legend {
   padding-bottom: 1em;
 }
 
-p, textarea, [contenteditable], figure, ol, ul {
+p, textarea, [contenteditable], figure, ol, ul, form, fieldset {
   margin: 0;
   margin-bottom: 0.75em;
 }
