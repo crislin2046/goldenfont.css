@@ -101,7 +101,7 @@ p, blockquote, ol, ul, dl, h1, h2, textarea, [contenteditable] {
   max-width: 100%;
 }
 
-textarea, [contenteditable] { max-width: 30em };
+textarea, [contenteditable] { max-width: 30em; }
 
 ul ul, fieldset > ul {
   margin-left: -0.35em;
