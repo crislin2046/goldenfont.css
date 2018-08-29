@@ -1,0 +1,27 @@
+/* Perfect typographic CSS */
+
+p, a, span, input {
+  font-size: 1.2em;
+  line-height: 1.618em;
+  font-family: sans-serif;
+}
+
+p {
+  width: 37.518em;
+  max-width: 99.999%;
+}
+
+label, legend, input, select, button, option {
+  display: inline-block;
+  height: 1em;
+  max-height: 2.61803398875em;
+}
+
+textarea {
+  box-sizing: border-box;
+  height: calc(attr(rows)*1.618em);
+  line-height: 1.618em;
+  font-size: 1.1em;
+}
+
+
