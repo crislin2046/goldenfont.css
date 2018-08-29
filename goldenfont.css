@@ -2,6 +2,9 @@
 
 :root, body, select, option, input, a, textarea, button {
   font: 12pt/135% serif;
+}
+
+:root, body, select, option, input, textarea, button {
   color: rgb(55,15,0);
 }
 
@@ -59,7 +62,7 @@ p + p {
   font-weight: normal;
 }
 
-fieldset {
+fieldset, hr {
   border: none;
   border-top: thin solid;
 }
