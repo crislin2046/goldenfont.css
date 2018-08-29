@@ -2,6 +2,9 @@
 
 :root, body, select, option, input, a, textarea, button, pre, code, kbd, samp {
   font: 12pt/135% serif;
+}
+
+:root, body, select, option, input, textarea, button, pre, code, kbd, samp {
   color: rgb(55,15,0);
 }
 
@@ -60,7 +63,7 @@ p, textarea, [contenteditable], figure, ol, ul, form, fieldset {
   font-weight: normal;
 }
 
-fieldset, hr {
+fieldset, hr, iframe, object {
   border: none;
   border-top: thin solid;
 }
