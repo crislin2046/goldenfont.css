@@ -3,7 +3,7 @@
 :root, body, select, option, input, a, textarea, button {
   font: 12pt/135% serif;
   color: rgb(55,15,0);
-  background: ivory;
+  background: rgb(249,249,249);
 }
 
 h1 {
@@ -48,10 +48,17 @@ p + p {
 
 .caps {
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .small-caps {
   font-variant: small-caps;
+  font-weight: normal;
+}
+
+fieldset {
+  border: none;
+  border-top: thin solid;
 }
 
 
