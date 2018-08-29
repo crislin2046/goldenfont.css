@@ -2,6 +2,8 @@
 
 :root, body, select, option, input, a, textarea, button {
   font: 12pt/135% serif;
+  color: rgb(55,15,0);
+  background: ivory;
 }
 
 h1 {
