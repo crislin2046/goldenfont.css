@@ -10,14 +10,12 @@
 
 :root {
   margin: 1.35em;
+  background: silver;
 }
 
 body {
   display: table;
   margin: 0 auto;
-}
-
-:root, body {
   background: rgb(249,249,249);
 }
 
