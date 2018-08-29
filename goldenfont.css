@@ -76,6 +76,7 @@ ol li::before {
 
 ul ul {
   list-style-type: none;
+  margin-left: 0;
 }
 
 ul {
@@ -85,13 +86,13 @@ ul {
 }
 
 ul li {
-  padding-left: 1em;
+  padding-left: 1.35em;
 }
 
 blockquote, dd, fieldset {
   padding-left: 0;
   margin-left: 0;
-  padding-left: 2em;
+  padding-left: 1.35em;
 }
 
 p, blockquote, ol, ul, dl, h1, h2, textarea, [contenteditable] {
