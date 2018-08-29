@@ -37,7 +37,7 @@ th, legend {
   padding-bottom: 1em;
 }
 
-p {
+p, textarea, [contenteditable] {
   margin-bottom: 0.75em;
 }
 
@@ -71,17 +71,21 @@ ol {
 
 ol li::before {
   counter-increment: section;
-  content: counters(section, ".") " ";
+  content: counters(section, ".") ".";
 }
 
 ul ul {
   list-style-type: none;
 }
 
-ol, ul {
+ul {
   padding-left: 0;
   margin-left: 0;
   margin-left: 1em;
+}
+
+ul li {
+  padding-left: 1em;
 }
 
 blockquote, dd, fieldset {
@@ -90,11 +94,9 @@ blockquote, dd, fieldset {
   padding-left: 2em;
 }
 
-li {
-  padding-left: 1em;
-}
-
-p, blockquote, ol, ul, dl, h1, h2 {
+p, blockquote, ol, ul, dl, h1, h2, textarea, [contenteditable] {
   width: 30em;
   max-width: 100%;
 }
+
+textarea, [contenteditable] { max-width: 30em };
