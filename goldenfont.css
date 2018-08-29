@@ -8,14 +8,18 @@
   color: rgb(55,15,0);
 }
 
-:root {
+:root, body {
   margin: 1.35em;
   background: silver;
 }
 
-body {
+body.document, main[role="document"], main.app {
   display: table;
   margin: 0 auto;
+  margin: 2.7em;
+}
+
+body {
   background: rgb(249,249,249);
 }
 
