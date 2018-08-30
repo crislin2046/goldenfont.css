@@ -21,8 +21,11 @@ body.document, main[role="document"], main.app {
   border-left: thin solid silver;
 }
 
-input:not([type="button"]):not([type="reset"]):not([type="submit"]), select, [contenteditable] {
+button, input, input[type="text"], select, option, textarea, [contenteditable] {
+  border-radius: 0;
   background: white;
+  box-shadow: none;
+  background-clip: padding-box;
 }
 
 body {
