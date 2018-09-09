@@ -21,7 +21,7 @@ body.document, main[role="document"], main.app {
   border-left: thin solid silver;
 }
 
-button, input, input[type="text"], select, option, textarea, [contenteditable] {
+button, input, input[type="text"], select, textarea, [contenteditable] {
   box-sizing: border-box;
   border-radius: 0;
   background: white;
